@@ -8,5 +8,5 @@ class Bot do
                     when /start/i
                          bot.api.send_message(chat_id:message.chat.id, text)
      end
+     
 end
-
