@@ -10,7 +10,10 @@ This is a Telegram bot built on Ruby. The main goal of this project is to put in
 
 ![Bot demo](bot_demo.jpg)
 
-## INSTRUCTIONS
+## Test With
+
+- Rspec `gem install rsepc`
+- then run `rspec spec/bot_test.rb`
 
 ## Getting Started
 
@@ -23,16 +26,24 @@ Clone repository from github to your local drive by following these steps:
   - `git clone https://github.com/ShoiraTa/myTelegramBot.git`.
   - Press Enter to create your local clone
 - Make sure you have ruby installed locally run `ruby -v`\*\*
-- Run `cd` TicTacToe in the terminal\*\*
-- Go to bin folder `cd bin`
-- To start the game type `ruby main.rb` in the terminal\*\*
+- Run `bundler install.`
+- Run `cd myTelegramBot` in the terminal\*\*
+- To run bot type `ruby ./bin/main.rb` in the terminal\*\*
+- Open telegram find @dailyin_bot
 
 ### Prerequisites
 
 - Text editor
+- Account in @Telegram
 - GitHub
-- Git
 - Ruby
+
+### Commands
+
+- /start - if you want to start
+- /quote - if you want to get an inspiration
+- /joke - if you want to get a joke
+- /stop - if you want to quit
 
 ## Authors
 
