@@ -1,7 +1,6 @@
 require 'json'
 require 'net/http'
 class Quotes
-  attr_reader :quote_list
 
   def initialize
     @quote_list = request

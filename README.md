@@ -13,7 +13,7 @@ This is a Telegram bot built on Ruby. The main goal of this project is to put in
 ## Test With
 
 - Rspec `gem install rsepc`
-- then run `rspec spec/bot_test.rb`
+- then run `rspec spec/bot_spec.rb`
 
 ## Getting Started
 
