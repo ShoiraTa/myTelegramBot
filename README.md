@@ -26,8 +26,8 @@ Clone repository from github to your local drive by following these steps:
   - `git clone https://github.com/ShoiraTa/myTelegramBot.git`.
   - Press Enter to create your local clone
 - Make sure you have ruby installed locally run `ruby -v`\*\*
-- Run `bundler install.`
 - Run `cd myTelegramBot` in the terminal\*\*
+- Run `bundler install.`
 - To run bot type `ruby ./bin/main.rb` in the terminal\*\*
 - Open telegram find @dailyin_bot
 
