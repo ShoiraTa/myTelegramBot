@@ -17,16 +17,4 @@ describe Jokes do
     end
   end
 end
-describe Quotes do
-  describe 'random quote' do
-    let(:quote) { Quotes.new }
-    let(:a_quote) { quote.a_quote }
-    let(:json) { quote.request }
-    it 'should return a Hash' do
-      expect(a_quote.class).to eql(Hash)
-    end
-    it 'returns a non empty JSON object' do
-      expect(json.class).to eql(Array)
-    end
-  end
-end
+
