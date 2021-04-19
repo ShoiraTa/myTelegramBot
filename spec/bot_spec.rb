@@ -17,4 +17,3 @@ describe Jokes do
     end
   end
 end
-
