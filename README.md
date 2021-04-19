@@ -15,7 +15,7 @@ This is a Telegram bot built on Ruby. The main goal of this project is to put in
 - Rspec `gem install rsepc`
 - then run `rspec spec/bot_spec.rb`
 
-## Get local copy
+## Get a local copy
 
 To get a local copy up and running follow these simple example steps.
 Clone repository from github to your local drive by following these steps:
