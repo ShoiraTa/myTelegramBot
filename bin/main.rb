@@ -2,8 +2,9 @@
 require 'telegram/bot'
 require_relative '../lib/quotes'
 require_relative '../lib/jokes'
-api_tg = '1699570578:AAH3z46KoCq__FdEKVfsG8dlt-thsdDPZuk'
-Telegram::Bot::Client.run(api_tg) do |bot|
+require 'dotenv'
+Dotenv.load
+Telegram::Bot::Client.run(ENV['API_KEY']) do |bot|
   bot.listen do |message|
     case message.text
     when /start/i
