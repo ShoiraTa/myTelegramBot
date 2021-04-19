@@ -15,7 +15,7 @@ This is a Telegram bot built on Ruby. The main goal of this project is to put in
 - Rspec `gem install rsepc`
 - then run `rspec spec/bot_spec.rb`
 
-## Getting Started
+## Get local copy
 
 To get a local copy up and running follow these simple example steps.
 Clone repository from github to your local drive by following these steps:
@@ -28,6 +28,18 @@ Clone repository from github to your local drive by following these steps:
 - Make sure you have ruby installed locally run `ruby -v`\*\*
 - Run `cd myTelegramBot` in the terminal\*\*
 - Run `bundler install.`
+
+### Create your own bot
+
+- First follow the steps described in "Get local copy" section above.
+- Go to your telegram account on ('https://telegram.org/')
+- Search for @BotFather, and follow the instructions to create a new bot
+- Copy your token or API key given by @BotFather
+- open `.env` file and change the `API_KEY` variable to your own
+
+### Run the Telegram bot
+
+- First follow the steps described in "Get local copy" section above.
 - To run bot type `ruby ./bin/main.rb` in the terminal\*\*
 - Open telegram find @dailyin_bot
 
