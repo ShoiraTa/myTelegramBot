@@ -3,12 +3,7 @@ require 'telegram/bot'
 require_relative '../lib/quotes'
 require_relative '../lib/jokes'
 require 'dotenv'
-<<<<<<< HEAD
 Dotenv.load
-=======
-Dotenv.load('.env')
-
->>>>>>> 8f89051... moved API to .env
 Telegram::Bot::Client.run(ENV['API_KEY']) do |bot|
   bot.listen do |message|
     case message.text
