@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'dotenv'
+gem 'json'
+gem 'net-http-persistent'
+gem 'telegram-bot-ruby'
